@@ -193,7 +193,14 @@
                         Sistema de gestão financeira completo que utiliza o Google Sheets como banco de dados. Leve, rápido e sem custo de servidor.
                     </p>
                 </div>
-                <a href="/cashflow/" class="btn">Acessar Sistema <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="/cashflow/" 
+   class="btn" 
+   onclick="gtag('event', 'acesso_sistema_cashflow', {
+     'event_category': 'conversao',
+     'event_label': 'landing_page_principal'
+   })">
+   Acessar Sistema <i class="fa-solid fa-arrow-right"></i>
+</a>
             </div>
 
             <div class="card" style="opacity: 0.6;">
@@ -228,3 +235,4 @@
 </body>
 
 </html>
+
